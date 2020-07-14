@@ -1,9 +1,10 @@
 package rpc
 
 import (
-	"github.com/hatajoe/8am/app/interface/rpc/v1.0"
-	"github.com/hatajoe/8am/app/registry"
 	"google.golang.org/grpc"
+
+	"github.com/istsh/8am/app/interface/rpc/v1.0"
+	"github.com/istsh/8am/app/registry"
 )
 
 func Apply(server *grpc.Server, ctn *registry.Container) {

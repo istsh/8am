@@ -1,10 +1,11 @@
 package registry
 
 import (
-	"github.com/hatajoe/8am/app/domain/service"
-	"github.com/hatajoe/8am/app/interface/persistence/memory"
-	"github.com/hatajoe/8am/app/usecase"
 	"github.com/sarulabs/di"
+
+	"github.com/istsh/8am/app/domain/service"
+	"github.com/istsh/8am/app/interface/persistence/memory"
+	"github.com/istsh/8am/app/usecase"
 )
 
 type Container struct {

@@ -6,9 +6,10 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/hatajoe/8am/app/interface/rpc"
-	"github.com/hatajoe/8am/app/registry"
 	"google.golang.org/grpc"
+
+	"github.com/istsh/8am/app/interface/rpc"
+	"github.com/istsh/8am/app/registry"
 )
 
 func main() {

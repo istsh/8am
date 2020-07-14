@@ -2,9 +2,10 @@ package usecase
 
 import (
 	"github.com/google/uuid"
-	"github.com/hatajoe/8am/app/domain/model"
-	"github.com/hatajoe/8am/app/domain/repository"
-	"github.com/hatajoe/8am/app/domain/service"
+
+	"github.com/istsh/8am/app/domain/model"
+	"github.com/istsh/8am/app/domain/repository"
+	"github.com/istsh/8am/app/domain/service"
 )
 
 type UserUsecase interface {

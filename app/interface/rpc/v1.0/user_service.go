@@ -3,8 +3,8 @@ package v1
 import (
 	"context"
 
-	"github.com/hatajoe/8am/app/interface/rpc/v1.0/protocol"
-	"github.com/hatajoe/8am/app/usecase"
+	"github.com/istsh/8am/app/interface/rpc/v1.0/protocol"
+	"github.com/istsh/8am/app/usecase"
 )
 
 type userService struct {

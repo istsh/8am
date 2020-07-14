@@ -3,7 +3,7 @@ package memory
 import (
 	"sync"
 
-	"github.com/hatajoe/8am/app/domain/model"
+	"github.com/istsh/8am/app/domain/model"
 )
 
 type userRepository struct {
